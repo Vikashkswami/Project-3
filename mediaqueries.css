@@ -1,0 +1,430 @@
+/* media queries */
+
+
+@media screen and (min-width:0px) and (max-width:480px) {
+ 
+    *{
+        overflow:auto;
+        overflow-x: hidden;
+
+    } 
+
+    /* outer first */
+
+    .outer-first {
+        min-height: 585px;
+        height: auto;
+    }
+
+    .inner-one {
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .left-image>img {
+        width: 8rem;
+    }
+
+    
+
+    /* option[value="English"]{
+        display: none;
+    }
+
+    option[value="Empty"]{
+        display: block;
+    } */
+
+
+
+    .inner-two {
+        margin-top: 30px;
+    }
+
+    .right-button {
+        width: 13.25rem;
+    }
+
+    .heading-first>h1 {
+        text-align: center;
+        font-size: 2.6rem;
+
+    }
+
+    .heading-second>p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .paragaph>p {
+        text-align: center;
+    }
+
+    .search-box-btn {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* outer second to outer Fifth*/
+    .outer-Box{
+        height: auto;
+    }
+
+    .inner-Box{
+        flex-direction: column;
+    }
+
+    .BOX-FIRST{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .BOX-FIRST-ONE{
+        font-size: 30px;
+        
+    }
+   .BOX-FIRST-TWO{
+    font-size: 20px;
+   }
+
+   .column-reverse{
+    flex-direction: column-reverse;
+   }
+    /* outer sixth */
+    .outer-sixth {
+        min-height: 950px;
+        height: auto;
+    }
+
+     .description-box{
+        height: auto;
+        min-width: 100px;
+        min-height: 70px;
+        font-size: 20px;
+     }
+    
+
+    .outer-seventh {
+        min-height: 1255px;
+        height: auto;
+        display: inline;
+    }
+
+    .head>h1 {
+        font-size: 2.3rem;
+    }
+
+    .inner-description {
+        padding: 0px 15px;
+    }
+
+   
+
+    .description-text-area {
+        font-size: 20px;
+        overflow-y: hidden;
+    }
+
+    .content-box {
+        box-sizing: content-box;
+
+    }
+
+    .description-small-box {
+        width: auto;
+
+    }
+
+    .about-netflix {
+        height: auto;
+    }
+
+    .about-cost {
+        height: auto;
+    }
+
+    .about-watch {
+        height: auto;
+    }
+
+    .about-kids {
+        height: auto;
+    }
+
+    .about-cancel {
+        height: auto;
+    }
+
+    .about-what-watch {
+        height: auto;
+    }
+
+
+
+
+    .email-input {
+        width: 260px;
+    }
+
+    .level6 {
+        text-align: center;
+    }
+
+
+
+    /* outer Eight */
+
+    
+
+    .outer-eight {
+        min-height: 550px;
+        height: auto;
+
+        
+    }
+
+    .level7 {
+        margin-left: 25px;
+        gap: 15px;
+    }
+
+    .question-call {
+        font-size: 15px;
+    }
+
+    .anchor-reference {
+        flex-wrap: wrap;
+        font-size: 13px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .anchor-box {
+        gap: 10px;
+        height: auto;
+        width: auto;
+    }
+
+
+    .netflix-india {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+ 
+    /* *{
+        overflow: auto;
+        overflow-x: hidden;
+    }  */
+
+    /* outer first */
+
+    .outer-first {
+        height: 577px;
+    }
+
+    .left-image>img {
+        width: 7rem;
+    }
+
+    .right-button {
+        margin-right: 100px;
+    }
+
+    .inner-two {
+        font-size: 19px;
+    }
+
+    .heading-first > h1{
+        text-align: center;
+    }
+
+    .paragaph > p{
+        text-align: center;
+    }
+
+    
+    /* outer second to outer Fifth*/
+
+    .outer-Box{
+        height: auto;
+    }
+
+    .inner-Box{
+        flex-direction: column;
+    }
+
+    .BOX-FIRST{
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .BOX-FIRST-ONE{
+        font-size: 30px;
+        
+    }
+   .BOX-FIRST-TWO{
+    font-size: 20px;
+   }
+
+   .column-reverse{
+    flex-direction: column-reverse;
+   }
+    /* outer sixth */
+
+    .outer-sixth {
+        min-height: 810px;
+        height: auto;
+    }
+
+    .head>h1 {
+        font-size: 2em;
+    }
+
+    .description-box {
+        font-size: 18px;
+        width: auto;
+        height: 61px;
+        
+        overflow-y: hidden;
+    }
+
+    
+
+    .level6 {
+        margin-bottom: 35px;
+    }
+
+    .level6>p {
+        font-size: 17px;
+    }
+
+    .description-small-box {
+        width: auto;
+        
+        box-sizing: border-box;
+        font-size: 18px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .description-text-area{
+        overflow-y: hidden;
+    }
+
+
+    /* outer Eight */
+
+    .level7 {
+        margin-left: 50px;
+    }
+
+    .anchor-reference {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+   
+}
+
+
+@media screen and (min-width:769px) and (max-width:1000px) {
+
+     /* *{
+        overflow: auto;
+        overflow-x: hidden;
+       
+    }  */
+
+    /* outer first */
+
+    .outer-first {
+        height: 500px;
+    }
+
+    .left-image>img {
+        width: 6em;
+    }
+
+    .right-button {
+        margin-right: 100px;
+    }
+
+    .inner-two {
+        font-size: 15px;
+        gap: 15px;
+    }
+
+   
+    
+    /* outer-second to outer-Fifth */
+
+    .outer-Box{
+        height: auto;
+    }
+
+    .inner-Box{
+        flex-direction: column;
+    }
+
+    .BOX-FIRST{
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .BOX-FIRST-ONE{
+        font-size: 30px;
+        
+    }
+   .BOX-FIRST-TWO{
+    font-size: 20px;
+   }
+
+   .column-reverse{
+    flex-direction: column-reverse;
+   }
+
+    /* outer sixth */
+
+    .outer-sixth {
+    height: auto;
+    }
+
+    .head>h1 {
+        font-size: 35px;
+    }
+
+    .description-box {
+        width: auto;
+        height: 73px;
+        font-size: 20px;
+    }
+
+    .description-small-box {
+        width:auto;
+        font-size: 20px;
+        height: auto;
+    }
+
+    .description-text-area{
+        overflow-y: hidden;
+    }
+
+    /* outer eight */
+
+    .level7 {
+        margin-left: 25px;
+    }
+
+   
+}
+
+/* Select Button */

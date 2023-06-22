@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1110px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+
+}
+
+/* outer-first */
+
+.outer-first {
+
+    width: 100%;
+    height: 695px;
+    background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url(IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+}
+
+.inner-one {
+
+    width: 100%;
+    height: 80px;
+}
+
+img {
+    width: 200px;
+}
+
+.inner-one {
+    justify-content: space-between;
+}
+
+/* Top Right Buttons */
+
+.right-button {
+    gap: 15px;
+}
+
+
+.right-button-first select {
+    border: 1px solid #4e4e4e;
+    /* padding: 8px 40px; */
+    height: 35px;
+    width: 120px;
+    padding: 0px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+}
+
+.logo-set {
+    color: white;
+    position: absolute;
+    margin-left: 13px;
+}
+
+.img-set {
+    filter: invert(1);
+    position: relative;
+    right: 25px;
+}
+
+.img-set2{
+    filter: invert(0);
+    position: relative;
+    right: 25px;
+    
+}
+
+select[id="select-1"] {
+    appearance: none;
+}
+select[id="select-2"] {
+    appearance: none;
+}
+
+
+.sign-in{
+    background-color: rgb(240, 8, 8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    
+}
+
+/* option[value="Empty"]{
+    display: none;
+} */
+
+/* .null{
+    display:none;
+    background-color: greenyellow;
+} */
+.sign-in > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    
+}
+.sign-in:hover {
+    background-color: rgb(200, 8, 8);   
+}
+
+.dropdown>select {
+    width: 126px;
+    height: 31px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+select>option {
+    background-color: white;
+}
+
+form>i {
+    color: white;
+}
+
+/* Headings part*/
+
+.inner-two {
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+    margin-top: 160px;
+}
+.get-started-btn {
+    width: 170px;
+    height: 48px;
+    background-color: rgb(240, 8, 8);
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.get-started-btn:hover {
+    background-color: rgb(200, 8, 8);
+    cursor: pointer;
+
+
+}
+
+.email-input {
+    border: 0.2px solid white;
+    height: 48px;
+    width: 330px;
+    background-color: #171718;
+    opacity: 0.8;
+}
+
+input[class="email-input"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-box-btn {
+    gap: 10px;
+}
+
+.search-box-btn>form>input {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 6px;
+
+}
+/* 
+.beforefocus {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 432px;
+    top: 447px;
+
+    
+}
+
+.afterfocus {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 432px;
+    top: 438px;
+} */
+
+form>input {
+    padding: 13px;
+}
+
+
+/* Bottom Input */
+
+
+
+
+/* outer-second to outer-fifth */
+
+.outer-Box {
+    background-color: black;
+    color: white;
+    height: 500px;
+    border-top: 8px solid #5050505e;
+
+
+}
+
+.inner-Box {
+    justify-content: space-evenly;
+    width: 100%;
+
+
+}
+
+.BOX-FIRST {
+    height: 223px;
+    width: 60%;
+    box-sizing: content-box;
+    padding: 30px;
+}
+
+.BOX-FIRST-ONE {
+    font-size: 47px;
+}
+
+.BOX-FIRST-TWO {
+    font-size: 28px;
+
+}
+
+.BOX-img {
+    width: 100%;
+}
+
+/* outer sixth */
+
+.outer-sixth {
+    background-color: black;
+    color: white;
+    min-height: 950px;
+    height: auto;
+    border-top: 8px solid #5050505e;
+
+}
+
+.inner-description {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.head>h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.description-box {
+    font-size: 25px;
+    width: 100%;
+    height: 90px;
+    padding: 25px;
+    margin-top: 9px;
+    background-color: #5050505e;
+    justify-content: space-between;
+}
+
+.description-box:hover {
+    background-color: rgba(78, 78, 78, 1);
+}
+
+/* Description-box-text */
+
+.about-netflix {
+    width: 100%;
+    height: 200px;
+    background-color: #5050505e;
+    padding: 25px;
+    margin-top: 1px;
+    font-size: 25px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-cost {
+    width: 100%;
+    height: 130px;
+    background-color: #5050505e;
+    padding: 25px;
+    margin-top: 1px;
+    font-size: 25px;
+
+}
+
+.about-watch {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    margin-top: 1px;
+    font-size: 25px;
+    background-color: #5050505e;
+}
+
+.about-cancel {
+    width: 100%;
+    height: 140px;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 1px;
+    background-color: #5050505e;
+}
+
+.about-what-watch {
+    width: 100%;
+    height: 130px;
+    background-color: #5050505e;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.about-kids {
+    width: 100%;
+    height: 180px;
+    background-color: #5050505e;
+    padding: 25px;
+    margin-top: 1px;
+    font-size: 25px;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.des-box6 {
+    margin-bottom: 35px;
+}
+
+.level6 {
+    width: 100%;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 30px;
+}
+
+.level6>p {
+    font-size: 20px;
+
+}
+
+.plus-logo {
+    width: 30px;
+    filter: invert();
+    /* filter : invert(0) means no-effect*/
+}
+
+
+.YEAH {
+    transform: rotate(45deg);
+}
+
+
+/* outer-eight */
+
+.outer-eight {
+    background-color: black;
+    color: white;
+    height: 450px;
+    border-top: 8px solid #5050505e;
+}
+
+.outer-eight-second {
+    border: 8px solid greenyellow;
+}
+
+
+.level7 {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+}
+
+.question-call>p>a {
+    color: #8c8c8c;
+}
+
+.question-call>p {
+    color: #8c8c8c;
+}
+
+.anchor-reference {
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 70%;
+
+}
+
+.anchor-box {
+    flex-direction: column;
+    height: 150px;
+    gap: 13px;
+    align-items: start;
+
+}
+
+.anchor-box>a {
+    color: #8c8c8c;
+}
+
+.netflix-india>p {
+    color: #8c8c8c;
+}

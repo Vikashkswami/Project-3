@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sing In</title>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: auto;
+            font-family: sans-serif;
+
+
+
+        }
+
+        .container {
+            height: 1110px;
+
+            background-position: center;
+            background-size: cover;
+
+            background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url(IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+
+
+        }
+
+        .left-image>a>img {
+            width: 200px;
+            margin-left: 20px;
+            height: 90px;
+        }
+
+        .form-box {
+
+            width: 450px;
+            height: 670px;
+            background-color: black;
+            opacity: 0.8;
+
+
+        }
+
+        .container-second {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 80px;
+        }
+
+        .form-content {
+            margin: 45px 65px;
+
+
+        }
+
+        .input-password,
+        .input-name {
+            width: 100%;
+            height: 50px;
+        }
+
+        button {
+            width: 100%;
+            height: 50px;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        input {
+            margin: 8px 0px;
+            background-color: #333;
+            opacity: none;
+            border-radius: 3px;
+            font-size: 15px;
+            color: white;
+            padding: 20px;
+            border: none;
+            outline: none;
+            
+        }
+
+        ::placeholder {
+
+            color: #8c8c8c;
+         
+
+        }
+
+
+        button {
+            margin-top: 30px;
+            background: red;
+            border-radius: 3px;
+            color: white;
+            font-size: 15px;
+            border: none;
+
+           
+        }
+
+        
+        .bottom-here {
+            font-size: 15px;
+            color: #8c8c8c;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .bottom-here-b>a {
+            color: #8c8c8c;
+            text-decoration: none;
+
+        }
+
+        .bottom-here-b:hover {
+            text-decoration: underline;
+        }
+
+        .login-form-other {
+            font-size: 15px;
+            color: white;
+            margin-top: 85px;
+        }
+
+        .login-form-other>h4 {
+            color: #737373;
+        }
+
+        .login-form-other p {
+            color: #8c8c8c;
+            margin-top: 10px;
+        }
+
+        h4>a {
+            color: #8c8c8c;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        h4>a:hover {
+
+            text-decoration: underline;
+        }
+
+        .Learn-more {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .Learn-more:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+
+        .footer {
+            background-color: black;
+            min-height: 250px;
+            width: 100%;
+            opacity: 0.6;
+
+
+        }
+
+        .footer-container {
+            margin: 20px 200px;
+            height: auto;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: space-evenly;
+        }
+
+        .call-details>h4 {
+            color: #8c8c8c;
+        }
+
+        .facility-details>ul>li {
+            color: #8c8c8c;
+        }
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        li {
+            box-sizing: border-box;
+            display: inline-block;
+            margin-bottom: 20px;
+            width: 24%;
+            flex-wrap: wrap;
+        }
+
+        li:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        form>select {
+            height: 45px;
+            padding-left: 45px;
+            color: white;
+            background-color: black;
+            outline: none;
+            
+        }
+
+        .fa-solid {
+            color: white;
+            position: relative;
+            left: 35px;
+        }
+
+        @media screen and (min-width:0px) and (max-width:739px) {
+            .container {
+                background: black;
+                height: auto;
+                flex-wrap: wrap;
+            }
+
+            .form-box {
+                width: 100%;
+                height: auto;
+            }
+
+            .form-content {
+                margin: 11px 30px;
+            }
+
+            .footer-container {
+                margin: 10px 30px;
+            }
+
+            .footer {
+                border-top: 2px solid white;
+                height: auto;
+            }
+
+            li {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-image">
+            <a href="Index.html"><img src="assets (1)/Netflix_Logo_PMS (1).png" alt="Netflix_Logo_PMS"></a>
+        </div>
+        <div class="container-second">
+            <div class="form-box">
+                <div class="form-content">
+                    <h1>Sign In</h1>
+                    <form action="">
+
+                        <div class="details-input">
+                            <input type="email & tel" name="detail" placeholder="Email or phone number"
+                                class="input-name" class="placelabel">
+                                
+                            <input type="password" name="password" placeholder="Password" class="input-password"
+                                class="placelabel">
+
+                           
+                            <button class="btn-sign-in"><b>Sign In</b></button>
+                           
+                            <div class="bottom-here">
+                                <div class="bottom-here-a">
+                                    <input type="checkbox" value="">Remember me
+                                </div>
+                                <div class="bottom-here-b">
+                                    <a href="#">Need help?</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="login-form-other">
+                        <h4>New to Netflix?<a href="#">Sign up now</a>.</h4>
+                        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#"
+                                class="Learn-more">Learn
+                                more.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="call-details">
+                    <h4>Questions? Call <a href="#">000-800-919-1694</a></h4>
+                </div>
+                <div class="facility-details">
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Help Centre</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy</li>
+                        <li>Cookie Preferences</li>
+                        <li>Corporate Information</li>
+                    </ul>
+                </div>
+                <div class="language-btn">
+                    <div class="Left-align-btn">
+
+                        <form action="" class="dropdown"><i class="fa-solid fa-globe"></i>
+                            <select name="language" id="select-3" onclick="clickfunction3()" onblur="blurfunction3()">
+                                <option value="English">English</option>
+                                <option value="Hindi">हिन्दी</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script>
+     function clickfunction3(){
+        document.getElementById('select-3').style.outline = "5px solid white";
+    }
+
+    function blurfunction3() {
+        document.getElementById('select-3').style.outline = "";
+    }
+</script>
+
+</html>
