@@ -99,14 +99,6 @@ select[id="select-2"] {
     
 }
 
-/* option[value="Empty"]{
-    display: none;
-} */
-
-/* .null{
-    display:none;
-    background-color: greenyellow;
-} */
 .sign-in > a{
     text-decoration: none;
     color: white;
@@ -187,34 +179,6 @@ input[class="email-input"]::-webkit-search-cancel-button {
     border-radius: 6px;
 
 }
-/* 
-.beforefocus {
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    left: 432px;
-    top: 447px;
-
-    
-}
-
-.afterfocus {
-    color: white;
-    font-size: 13px;
-    position: absolute;
-    left: 432px;
-    top: 438px;
-} */
-
-form>input {
-    padding: 13px;
-}
-
-
-/* Bottom Input */
-
-
-
 
 /* outer-second to outer-fifth */
 
