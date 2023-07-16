@@ -177,6 +177,7 @@ input[class="email-input"]::-webkit-search-cancel-button {
     text-decoration: none;
     border: 1px solid white;
     border-radius: 6px;
+    padding-left: 15px;
 
 }
 
@@ -399,3 +400,5 @@ input[class="email-input"]::-webkit-search-cancel-button {
 .netflix-india>p {
     color: #8c8c8c;
 }
+
+

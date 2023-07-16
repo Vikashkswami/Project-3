@@ -18,7 +18,7 @@
 
     .inner-one {
         justify-content: space-between;
-        padding: 0px 40px;
+        padding: 0px 0px;
     }
 
     .left-image>img {
@@ -102,10 +102,19 @@
         height: auto;
         min-width: 100px;
         min-height: 70px;
-        font-size: 20px;
+        font-size: 15px;
      }
     
+     .plus-logo{
+        width: 20px;
+     }
 
+     .sign-in{
+        padding: 8px 8px;
+     }
+     .sign-in > a{
+        font-size: 10px;
+     }
     .outer-seventh {
         min-height: 1255px;
         height: auto;
