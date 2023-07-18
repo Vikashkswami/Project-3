@@ -6,7 +6,7 @@
     *{
         overflow:auto;
         overflow-x: hidden;
-        width: 100%;
+        
         
 
     } 
@@ -26,17 +26,6 @@
     .left-image>img {
         width: 8rem;
     }
-
-    
-
-    /* option[value="English"]{
-        display: none;
-    }
-
-    option[value="Empty"]{
-        display: block;
-    } */
-
 
 
     .inner-two {
@@ -438,4 +427,4 @@
    
 }
 
-/* Select Button */
+
