@@ -5,7 +5,7 @@
  
     *{
         overflow:auto;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
 
     } 
 
